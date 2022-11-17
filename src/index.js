@@ -15,7 +15,10 @@ function App() {
   // const name = "Samantha"
   // const age = 23
 
-  return <input type="number" min={5} max={10} />
+  const inputType = "number"
+  const minValue = 5
+
+  return <input type={inputType} min={minValue} />
 }
 
 root.render(<App />)
